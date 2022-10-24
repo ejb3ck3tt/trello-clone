@@ -1,5 +1,7 @@
+import { AppContainer } from './style'
+
 export const App = () => {
-  return null
+  return <AppContainer></AppContainer>
 }
 
 export default App
