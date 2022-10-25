@@ -1,7 +1,21 @@
-import { AppContainer } from './style'
+import {
+  AppContainer,
+  CardContainer,
+  ColumnContainer,
+  ColumnTitle,
+} from './style'
 
 export const App = () => {
-  return <AppContainer></AppContainer>
+  return (
+    <AppContainer>
+      <ColumnContainer>
+        <ColumnTitle>Todo:</ColumnTitle>
+        <CardContainer>First Item</CardContainer>
+        <CardContainer>Second Item</CardContainer>
+        <CardContainer>Third Item</CardContainer>
+      </ColumnContainer>
+    </AppContainer>
+  )
 }
 
 export default App
